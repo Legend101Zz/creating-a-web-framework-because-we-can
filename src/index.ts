@@ -5,4 +5,4 @@ const user = new User({ name: "Mrigeshj", age: 10 });
 user.on("nunu", () => {
   console.log("hello");
 });
-console.log(user);
+user.trigger("nunu");
